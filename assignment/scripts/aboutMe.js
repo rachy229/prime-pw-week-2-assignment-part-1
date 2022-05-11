@@ -1,9 +1,11 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName='Rachel';
+console.log(firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName=' Bruce';
+console.log(lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
@@ -13,7 +15,8 @@ let fullName= (firstName + lastName);
 console.log (fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber= 22
+let luckyNumber= 22;
+console.log(luckyNumber);
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -52,6 +55,7 @@ if (adventurous) {
 else {
     console.log('How about we stay home?');
 }
+
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 if (luckyNumber == 2 && adventurous) {
@@ -83,7 +87,7 @@ else{
 
 
 if (pets > friendsPets) {
-    var mostPets=('I have ' + pets+ ' pets, which is more than my friend has');
+    var mostPets= ('I have ' + pets + ' pets, which is more than my friend has');
 }
 else if (pets == friendsPets) {
     var mostPets=('My friend and I both have ' + pets + ' pets');
@@ -119,4 +123,4 @@ switch(luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+adventurous ? console.log('Adventures are great!') : console.log('How about we stay home?');
